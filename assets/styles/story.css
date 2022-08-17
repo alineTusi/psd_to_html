@@ -1,0 +1,25 @@
+.story-conteiner{
+    display: flex;
+    
+
+}
+
+.logoBig{
+    flex: 33.33%;
+    padding: 200px;
+
+}
+.story-title{
+    padding-top: 150px;
+    text-align: left;
+
+   
+}
+
+.bottom-story{
+    color: aqua;
+    border: 1px solid aqua;
+    padding: 10px;
+
+
+  }

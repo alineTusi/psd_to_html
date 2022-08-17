@@ -1,0 +1,29 @@
+.expertise-container {
+    max-width: 1600px;
+    margin: auto;
+    padding: 64.2px 0;
+}
+
+.expertise-title {
+    text-align: center;
+    line-height: 1.6;
+}
+/* Selector */
+.expertise-title h6::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 10px auto;
+    background-color: #413D4B;
+}
+
+.expertise-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.expertise-items .expertise-item {
+    width: 33%;
+}
