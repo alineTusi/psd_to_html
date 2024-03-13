@@ -1,0 +1,23 @@
+.video-container
+{
+ height: 670px;
+ background-image: url("../images/design-assets/bgk-middle.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.video-icon
+{
+ align-self: center;
+ padding-bottom: 2%;
+}
+
+.legend
+{
+ color: white;
+text-align: center;
+
+}

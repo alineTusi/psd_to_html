@@ -1,26 +1,72 @@
-.story-conteiner{
+.story-conteiner {
     display: flex;
-    
-
+    padding: 50px;
 }
 
-.logoBig{
+.logo {
     flex: 33.33%;
     padding: 100px 200px;
 
 }
-.story-title{
-    padding-top: 100px;
-    padding-right: 250px;
-    text-align: left;
 
-   
+.story-title {
+    padding-top: 100px;
+    padding-right: 150px;
+    text-align: left;
 }
 
-.bottom-story{
+.story-title p {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.bottom-story {
     color: aqua;
     border: 1px solid aqua;
     padding: 10px;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 400px) {
+    .story-conteiner {
+        display: block;
+    }
 
 
-  }
+
+    .logo {
+        display: block;
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+
+
+
+    .story-title p {
+        display: block;
+        margin: 0px 0px;
+        padding: 0px 0px;
+        width: 100%
+    }
+
+}
+
+@media only screen and (max-width: 1080px) {
+    .story-conteinerv {
+        display: block;
+    }
+
+
+
+    .story-title p {
+        display: block;
+        width: 100%;
+    }
+
+    .logo {
+        display: block;
+        margin: 0px 20px;
+        padding: 0px 0px;
+    }
+
+}

@@ -1,71 +1,77 @@
 header {
-    height: 670px;
-    background-image: url("../images/design-assets/bgk-header.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  header nav {
-    max-width: 939.53px;
-    margin: auto;
-    padding-top: 50px;
-  }
-  
-  .logo {
-    /* width: 200px; */
-    padding-right: 200px;
-    justify-content: flex;
+  height: 670px;
+  background-image: url("../images/design-assets/bgk-header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-    
-  }
-  
-  header nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 50px;
+header nav {
+  max-width: 939.53px;
+  margin: auto;
+  padding-top: 50px;
+}
 
-    
-  }
-  
-  header nav li {
-    list-style: none;
-    align-content: flex-end;
-   
-  }
-  
-  header nav a {
-    color: #fff;
-    text-transform: uppercase;
+.logo {
+  /* width: 200px; */
+  padding-right: 200px;
+  display: flex;
+  align-items: center;
+  color: aqua;
+  font-size: medium;
+}
 
-  }
+.logo p{
+  padding-left: 12px;
+}
 
-  .header_descr{
-    color: #fff;
-    text-align: center;
-    padding-right: 25%;
-    padding-left: 25%;
-
-  }
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
 
 
-  .bottom{
-    color: aqua;
-    border: 1px solid aqua;
-    padding: 10px;
-    display: inline-block;
-  }
+}
 
-  .header_descr p{
-    margin-bottom: 50px;
-    text-align: center;
-    
-  }
-  .title::after{
-      content: '';
-      display: block;
-      width: 50px;
-      height: 2px;
-      margin: 30px auto;
-      background-color: aqua;
-  }
+header nav li {
+  list-style: none;
+  align-content: flex-end;
+
+}
+
+header nav a {
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+.header_descr {
+  color: #fff;
+  text-align: center;
+  padding-right: 25%;
+  padding-left: 25%;
+
+}
+
+
+.buttom {
+  color: aqua;
+  border: 1px solid aqua;
+  padding: 10px;
+  display: inline-block;
+}
+
+.header_descr p {
+  margin-bottom: 50px;
+  text-align: center;
+
+}
+
+.title::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  margin: 30px auto;
+  background-color: aqua;
+}
