@@ -6,7 +6,6 @@
 .logo {
     flex: 33.33%;
     padding: 100px 200px;
-
 }
 
 .story-title {
@@ -32,15 +31,11 @@
         display: block;
     }
 
-
-
     .logo {
         display: block;
         margin: 0px 0px;
         padding: 0px 0px;
     }
-
-
 
     .story-title p {
         display: block;
@@ -52,11 +47,9 @@
 }
 
 @media only screen and (max-width: 1080px) {
-    .story-conteinerv {
+    .story-conteiner {
         display: block;
     }
-
-
 
     .story-title p {
         display: block;

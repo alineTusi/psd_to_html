@@ -1,145 +1,121 @@
 .team-container {
- background-image: url("../images/design-assets/bgk-middle.png");
- display: block;
+    background-image: url(/assets/images/design-assets/bgk-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px;
 }
 
-.team-title {
- display: flex;
- flex-direction: column;
- align-items: center;
- padding: 50px;
- color: lightgrey;
+.meet-item-title {
+    text-align: center;
+    margin: auto;
+    color: white;
+    line-height: 2;
+    padding: 40px;
 }
 
-.team-title p {
- padding: 10px;
- text-align: center;
+.meet-item-title h2::after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 30px auto;
+    background-color: lightgray;
 }
 
-.team-title::after {
- display: block;
- margin: 10px auto;
- content: "";
- height: 0.5px;
- background-color: lightgrey;
- width: 60px;
+.meet-container {
+    display: flex;
+    margin: 0px;
+    border: 0, 5px black dotted;
+    text-align: center;
 }
 
-.team-item {
- display: flex;
- color: lightgrey;
-
- padding: 0px 80px;
- margin: 0px 70px;
-
-
+.meet-container h2,
+.meet-container h3 {
+    color: white;
 }
 
-.team-logos {
- border: 1px solid lightgrey;
+.meet-container img {
+    width: 300px;
+    height: 300px;
+    line-height: 2;
+    align-self: stretch;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: auto;
 }
 
-.team-logo img {
- width: 180px;
- height: 180px;
-
-flex-wrap: wrap;
-padding: 20px;
-margin: auto;
+.text h4 {
+    display: flex;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    padding: 50px;
 }
 
-
-.team-logo h4 {
- padding: 10px 0px 5px;
- padding-left: 60px;
-
-}
-
-.team-logo p {
- padding-bottom: 20px;
- text-align: center;
-}
-
-.button-hiring {
- display: flex;
- flex-direction: column;
- align-items: center;
- color: lightgrey;
- padding: 50px 0px 80px;
-
-}
-
-.button-hiring p {
- padding-bottom: 20px;
+.text a {
+    display: block;
+    color: aqua;
+    margin: 0% auto;
+    border: 2px solid aqua;
+    background-color: transparent;
+    max-width: 150px;
+    text-align: center;
+    padding: 10px;
 }
 
 
-.hiring button {
- height: 35px;
- width: 130px;
- border: 1px solid aqua;
- text-align: center;
- background: fixed;
- color: aqua;
- cursor: pointer;
 
-}
-
-.hiring button:active {
- transform: translateY(2px);
+.container {
+    max-width: 1600px;
+    margin: 70px auto;
 }
 
 @media only screen and (max-width: 1024px) {
 
- .container {
-  
-     margin: 0px 0;
- }
- 
- .team-container {
-     padding: 0px 0px;
- }
- 
- .meet-container{
-     display: flex;
-     text-align: center;
-     
- 
-     
- }
- .meet-container img {
-     width: 200px; 
-     height: 200px;
- }
-     
-     
-     
-     }
-     
-     
- 
-   
-   @media only screen and (max-width: 765px) {
-     .team-container {
-         padding: 0px 0px;
-     }
-     .meet-container{
-         display: block;
-     }
-         
-     
-     
-   
-   @media only screen and (max-width: 400px) {
-   
-     .team-container {
-         padding: 0px 0px;
-     }
-     .meet-container{
-         display: block;
-     }
-     
-     
-    
-     }
-   }
+    .container {
+        margin-bottom: 10px;
+        margin: 0px 0;
+    }
+
+    .team-container {
+        padding: 0px 0px;
+    }
+
+    .meet-container {
+        display: flex;
+        text-align: center;
+    }
+
+    .meet-container img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+@media only screen and (max-width: 765px) {
+    .team-container {
+        padding: 20px 0px;
+    }
+
+    .meet-container {
+        display: block;
+    }
+    .text a{
+        margin-bottom: 20px;
+    }
+
+    @media only screen and (max-width: 400px) {
+        .team-container {
+            padding: 20px 0px;
+        }
+
+        .meet-container {
+            display: block;
+        }
+
+        .text a{
+            margin-bottom: 20px;
+        }
+    }
+}

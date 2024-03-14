@@ -1,0 +1,174 @@
+footer {
+ background-image: url(/assets/images/design-assets/bgk-footer.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding: 30px 150px;
+}
+
+.item {
+ width: 26%;
+}
+
+.logo-footer {
+ display: flex;
+ color: aqua;
+ font-size: x-large;
+ align-items: center;
+}
+
+.footer-content {
+ display: flex;
+ justify-content: space-between;
+ padding: 30px 0;
+ flex-direction: row;
+}
+
+.paragraph h5 {
+ color: lightgrey;
+ font-size: large;
+ font-weight: 300;
+ line-height: 1.4;
+ padding: 2px 0px;
+ margin: 20px 0;
+}
+
+.footer-title {
+ display: flex;
+ flex-direction: column;
+ justify-items: center;
+ width: 30%;
+ padding: 12px 0;
+ color: lightgrey;
+}
+
+.title-footer {
+ color: white;
+ width: 30%;
+ padding: 40px 0px;
+}
+
+.footer-title p {
+ padding: 15px 0;
+}
+
+.title-footer ul {
+ display: flex;
+ padding: 30px 0;
+ list-style: none;
+ padding: 20px 0;
+}
+
+.title-footer input {
+ padding: 5px;
+ margin: 30px 0;
+ margin-right: 5px;
+ color: rgba(0, 0, 0, 0);
+}
+
+.title-footer button {
+ padding: 3px 6px;
+}
+
+
+.footer-navbar ul a {
+ color: lightgrey;
+ list-style: none;
+ margin: 20px 0;
+ padding: 8px;
+}
+
+.footer-navbar ul {
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+ margin: 20px 0px;
+ list-style: none;
+}
+
+.title-footer input {
+ padding: 10px 10px;
+ opacity: 40%;
+ color: lightgrey;
+}
+
+.footer-navbar p {
+ display: flex;
+ justify-content: flex-end;
+ align-items: flex-end;
+ color: lightgrey;
+}
+
+
+.title-footer ul li {
+ padding: 3px;
+}
+
+.title-footer form {
+ display: flex;
+ align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+ footer {
+  padding: 0px 0px;
+ }
+
+ .item {
+  width: 96%;
+ }
+
+
+ .footer-title p {
+  padding: 15px 0;
+  width: 100%;
+ }
+
+}
+
+
+@media only screen and (max-width: 765px) {
+ footer {
+  padding: 0px 0px;
+ }
+
+ .footer-content {
+  display: block;
+ }
+
+ .title-footer {
+  color: white;
+  width: 100%;
+  padding: 10px 0px;
+ }
+
+ .footer-title {
+  width: 100%;
+  padding-left: 20px;
+ }
+
+ .footer-title p {
+  padding: 20px 0;
+  width: 100%;
+ }
+
+ @media only screen and (max-width: 400px) {
+  footer {
+   padding: 0px 0px;
+  }
+
+  .item {
+   width: 96%;
+  }
+
+  .footer-content {
+   display: block;
+   padding: 60px 0;
+  }
+
+  .footer-title p {
+   padding: 15px 0;
+   width: 100%;
+  }
+
+ }
+}

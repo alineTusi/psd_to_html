@@ -1,48 +1,49 @@
 header {
   height: 670px;
-  background-image: url("../images/design-assets/bgk-header.png");
+  background-image: url('/assets/images/design-assets/bgk-header.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 header nav {
-  max-width: 939.53px;
+  /*max-width: 939.53px;*/
   margin: auto;
-  padding-top: 50px;
+  padding: 50px;
 }
 
-.logo {
-  /* width: 200px; */
-  padding-right: 200px;
+.header-logo {
+  color: aqua;
   display: flex;
   align-items: center;
-  color: aqua;
-  font-size: medium;
-}
-
-.logo p{
-  padding-left: 12px;
+  font-size: x-large;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 50px;
-
+  margin-bottom: 80px;
 
 }
 
 header nav li {
   list-style: none;
-  align-content: flex-end;
-
+  text-align: center;
+  padding: 10px;
 }
+
+header nav li:first-child {
+  margin-right: 20%;
+}
+
+
+header nav ul li:nth-child(n+1) {
+  color: aqua;
+}
+
 
 header nav a {
   color: #fff;
-  text-transform: uppercase;
-
 }
 
 .header_descr {
@@ -50,11 +51,10 @@ header nav a {
   text-align: center;
   padding-right: 25%;
   padding-left: 25%;
-
 }
 
 
-.buttom {
+.bottom {
   color: aqua;
   border: 1px solid aqua;
   padding: 10px;
@@ -64,7 +64,7 @@ header nav a {
 .header_descr p {
   margin-bottom: 50px;
   text-align: center;
-
+  font-size: 20px;
 }
 
 .title::after {
@@ -74,4 +74,68 @@ header nav a {
   height: 2px;
   margin: 30px auto;
   background-color: aqua;
+}
+
+
+.header_descr a {
+  color: aqua;
+  border: 2px solid aqua;
+  background-color: transparent;
+  padding: 8px;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  header {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .header_descr {
+    display: block;
+  }
+
+  header nav ul {
+    display: flex;
+  }
+
+  @media only screen and (max-width: 765px) {
+
+    header {
+      height: auto;
+      padding-bottom: 20px;
+    }
+
+    .header_descr {
+      display: block;
+    }
+
+    header nav ul {
+      display: flex;
+      flex-direction: column;
+    }
+
+    @media only screen and (max-width: 400px) {
+
+
+      header {
+        height: auto;
+        padding-bottom: 20px;
+      }
+
+      .header_descr {
+        display: block;
+      }
+
+      header nav ul {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .header_descr p {
+        margin-bottom: 30px;
+      }
+    }
+  }
 }
