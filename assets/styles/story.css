@@ -1,17 +1,20 @@
 .story-conteiner {
     display: flex;
     padding: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
     flex: 33.33%;
-    padding: 100px 200px;
+    /* padding: 100px 200px; */
 }
 
 .story-title {
-    padding-top: 100px;
-    padding-right: 150px;
+   /*  padding-top: 100px;
+    padding-right: 150px; */
     text-align: left;
+    margin-top: 20px;
 }
 
 .story-title p {

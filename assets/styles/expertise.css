@@ -32,7 +32,6 @@
     text-align: center;
     line-height: 1.5;
     font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .expertise-item h5 {
     margin: 30px 0;
@@ -42,6 +41,7 @@
 .expertise-item p {
     padding: 0% 15%;
     padding-bottom: 30px;
+    color: rgb(66, 63, 63);
 }
 .expertise-item img {
     margin-top: 40px;
@@ -77,6 +77,7 @@
     .expertise-item:nth-child(n+4) {
         border-bottom: 1px solid gray;
     }
+    
     .expertise-item:nth-child(6) {
         border-bottom: 0;
     }
@@ -87,7 +88,9 @@
         display: block;
         width: 300%;
     }    
-    
+    .expertise-item:nth-child(n+1) {
+        border-right: 0;
+    }
     .expertise-item:nth-child(n+4) {
         border-bottom: 1px solid gray;
     }
